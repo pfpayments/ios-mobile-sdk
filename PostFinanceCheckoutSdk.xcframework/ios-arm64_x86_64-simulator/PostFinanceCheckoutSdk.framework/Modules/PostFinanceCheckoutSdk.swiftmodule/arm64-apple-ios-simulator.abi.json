@@ -575,6 +575,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PostFinanceCheckoutSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "PaymentResultEnum",
         "printedName": "PaymentResultEnum",
@@ -1130,6 +1140,16 @@
       },
       {
         "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "PostFinanceCheckoutSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1160,6 +1180,20 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "PostFinanceCheckoutSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "ThreeDS_SDK",
+        "printedName": "ThreeDS_SDK",
+        "declKind": "Import",
+        "moduleName": "PostFinanceCheckoutSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "PostFinanceCheckoutSdk",
         "declAttributes": [
           "RawDocComment"
@@ -1188,6 +1222,26 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "PostFinanceCheckoutSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PostFinanceCheckoutSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "PostFinanceCheckoutSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -1293,6 +1347,23 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PostFinanceCheckoutSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ThreeDS_SDK",
+        "printedName": "ThreeDS_SDK",
+        "declKind": "Import",
+        "moduleName": "PostFinanceCheckoutSdk"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1312,6 +1383,30 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PostFinanceCheckoutSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "PostFinanceCheckoutSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PostFinanceCheckoutSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "ThreeDS_SDK",
+        "printedName": "ThreeDS_SDK",
         "declKind": "Import",
         "moduleName": "PostFinanceCheckoutSdk"
       },
@@ -1403,6 +1498,57 @@
         "printedName": "PostFinanceCheckoutSdk",
         "children": [
           {
+            "kind": "Var",
+            "name": "SDK_VERSION",
+            "printedName": "SDK_VERSION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22PostFinanceCheckoutSdkAAC11SDK_VERSIONSSvpZ",
+            "mangledName": "$s22PostFinanceCheckoutSdkAAC11SDK_VERSIONSSvpZ",
+            "moduleName": "PostFinanceCheckoutSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22PostFinanceCheckoutSdkAAC11SDK_VERSIONSSvgZ",
+                "mangledName": "$s22PostFinanceCheckoutSdkAAC11SDK_VERSIONSSvgZ",
+                "moduleName": "PostFinanceCheckoutSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "onHandleOpenURL",
             "printedName": "onHandleOpenURL(url:)",
@@ -1445,7 +1591,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "PostFinanceCheckoutResultObserver",
-                "printedName": "PostFinanceCheckoutSdk.PostFinanceCheckoutResultObserver",
+                "printedName": "any PostFinanceCheckoutSdk.PostFinanceCheckoutResultObserver",
                 "usr": "s:22PostFinanceCheckoutSdk0abC14ResultObserverP"
               }
             ],
@@ -1504,6 +1650,66 @@
             "declKind": "Func",
             "usr": "s:22PostFinanceCheckoutSdkAAC17configureApplePay10merchantIdySS_tF",
             "mangledName": "$s22PostFinanceCheckoutSdkAAC17configureApplePay10merchantIdySS_tF",
+            "moduleName": "PostFinanceCheckoutSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureDeepLink",
+            "printedName": "configureDeepLink(deepLink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22PostFinanceCheckoutSdkAAC17configureDeepLink04deepG0ySS_tF",
+            "mangledName": "$s22PostFinanceCheckoutSdkAAC17configureDeepLink04deepG0ySS_tF",
+            "moduleName": "PostFinanceCheckoutSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureBaseUrl",
+            "printedName": "configureBaseUrl(baseUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22PostFinanceCheckoutSdkAAC16configureBaseUrl04baseG0ySSSg_tF",
+            "mangledName": "$s22PostFinanceCheckoutSdkAAC16configureBaseUrl04baseG0ySSSg_tF",
             "moduleName": "PostFinanceCheckoutSdk",
             "declAttributes": [
               "AccessControl"
@@ -1719,6 +1925,51 @@
         "moduleName": "PostFinanceCheckoutSdk"
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PostFinanceCheckoutSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PostFinanceCheckoutSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PostFinanceCheckoutSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "ThreeDS_SDK",
+        "printedName": "ThreeDS_SDK",
+        "declKind": "Import",
+        "moduleName": "PostFinanceCheckoutSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "PostFinanceCheckoutSdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PostFinanceCheckoutSdk"
+      },
+      {
         "kind": "TypeDecl",
         "name": "AnimationEnum",
         "printedName": "AnimationEnum",
@@ -1795,6 +2046,43 @@
             "declKind": "EnumElement",
             "usr": "s:22PostFinanceCheckoutSdk13AnimationEnumO5SLIDEyA2CmF",
             "mangledName": "$s22PostFinanceCheckoutSdk13AnimationEnumO5SLIDEyA2CmF",
+            "moduleName": "PostFinanceCheckoutSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "NONE",
+            "printedName": "NONE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PostFinanceCheckoutSdk.AnimationEnum.Type) -> PostFinanceCheckoutSdk.AnimationEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimationEnum",
+                    "printedName": "PostFinanceCheckoutSdk.AnimationEnum",
+                    "usr": "s:22PostFinanceCheckoutSdk13AnimationEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PostFinanceCheckoutSdk.AnimationEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimationEnum",
+                        "printedName": "PostFinanceCheckoutSdk.AnimationEnum",
+                        "usr": "s:22PostFinanceCheckoutSdk13AnimationEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22PostFinanceCheckoutSdk13AnimationEnumO4NONEyA2CmF",
+            "mangledName": "$s22PostFinanceCheckoutSdk13AnimationEnumO4NONEyA2CmF",
             "moduleName": "PostFinanceCheckoutSdk"
           },
           {
@@ -1922,424 +2210,739 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/RNScreenController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/RNScreenController.swift",
       "kind": "StringLiteral",
       "offset": 158,
       "length": 56,
       "value": "\"postfinancecheckout-payment-sdk-close-app-notification\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/RNScreenController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/RNScreenController.swift",
       "kind": "BooleanLiteral",
       "offset": 242,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/RNScreenController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/RNScreenController.swift",
       "kind": "StringLiteral",
-      "offset": 293,
+      "offset": 318,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/RNScreenController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/RNScreenController.swift",
       "kind": "Dictionary",
-      "offset": 343,
+      "offset": 368,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Helpers\/ConsoleErrorHandler.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Helpers\/ConsoleErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 106,
       "length": 25,
       "value": "\"Token can not be empty!\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Helpers\/ConsoleErrorHandler.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Helpers\/ConsoleErrorHandler.swift",
       "kind": "StringLiteral",
       "offset": 106,
       "length": 25,
       "value": "\"Token can not be empty!\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Enums\/ThemeEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Enums\/ThemeEnum.swift",
       "kind": "StringLiteral",
       "offset": 69,
       "length": 7,
       "value": "\"light\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Enums\/ThemeEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Enums\/ThemeEnum.swift",
       "kind": "StringLiteral",
       "offset": 93,
       "length": 6,
       "value": "\"dark\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Enums\/ThemeEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Enums\/ThemeEnum.swift",
       "kind": "StringLiteral",
       "offset": 69,
       "length": 7,
       "value": "\"light\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Enums\/ThemeEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Enums\/ThemeEnum.swift",
       "kind": "StringLiteral",
       "offset": 93,
       "length": 6,
       "value": "\"dark\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
       "offset": 271,
       "length": 15,
       "value": "\"twint-payment\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
+      "kind": "IntegerLiteral",
+      "offset": 500,
+      "length": 2,
+      "value": "39"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 386,
+      "offset": 547,
       "length": 14,
       "value": "\"twint_result\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 442,
+      "offset": 603,
       "length": 27,
       "value": "\"TWINT_EVENT_LISTENER_NAME\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 536,
+      "offset": 697,
       "length": 14,
       "value": "\"TW_B_SUCCESS\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 572,
+      "offset": 733,
       "length": 12,
       "value": "\"TW_B_ERROR\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 614,
+      "offset": 775,
       "length": 24,
       "value": "\"TW_B_APP_NOT_INSTALLED\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 667,
+      "offset": 828,
       "length": 26,
       "value": "\"TW_T_CODE_FORMAT_INVALID\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 728,
+      "offset": 889,
       "length": 27,
       "value": "\"TW_IOS_SCHEMA_URL_INVALID\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 536,
+      "offset": 697,
       "length": 14,
       "value": "\"TW_B_SUCCESS\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 572,
+      "offset": 733,
       "length": 12,
       "value": "\"TW_B_ERROR\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 614,
+      "offset": 775,
       "length": 24,
       "value": "\"TW_B_APP_NOT_INSTALLED\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 667,
+      "offset": 828,
       "length": 26,
       "value": "\"TW_T_CODE_FORMAT_INVALID\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/Twint\/TwintModule.swift",
       "kind": "StringLiteral",
-      "offset": 728,
+      "offset": 889,
       "length": 27,
       "value": "\"TW_IOS_SCHEMA_URL_INVALID\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 174,
       "length": 10,
       "value": "\"CANCELED\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 203,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 233,
       "length": 11,
       "value": "\"COMPLETED\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 264,
       "length": 9,
       "value": "\"TIMEOUT\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 293,
       "length": 9,
       "value": "\"PENDING\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 174,
       "length": 10,
       "value": "\"CANCELED\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 203,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 233,
       "length": 11,
       "value": "\"COMPLETED\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 264,
       "length": 9,
       "value": "\"TIMEOUT\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PaymentResult.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PaymentResult.swift",
       "kind": "StringLiteral",
       "offset": 293,
       "length": 9,
       "value": "\"PENDING\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ApplePay.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/LoggerWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 289,
+      "offset": 288,
+      "length": 9,
+      "value": "\"threeDS\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ApplePay.swift",
+      "kind": "StringLiteral",
+      "offset": 297,
       "length": 16,
       "value": "\"applePayResult\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ApplePay.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ApplePay.swift",
       "kind": "StringLiteral",
-      "offset": 350,
+      "offset": 358,
       "length": 30,
       "value": "\"APPLEPAY_EVENT_LISTENER_NAME\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ModalPresentationController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 118,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 151,
+      "length": 3,
+      "value": "\"N\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 3,
+      "value": "\"U\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 3,
+      "value": "\"A\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 3,
+      "value": "\"C\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 3,
+      "value": "\"R\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 3,
+      "value": "\"D\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 368,
+      "length": 3,
+      "value": "\"I\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 118,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 151,
+      "length": 3,
+      "value": "\"N\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 3,
+      "value": "\"U\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 3,
+      "value": "\"A\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 3,
+      "value": "\"C\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 3,
+      "value": "\"R\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 3,
+      "value": "\"D\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ChallengeStatusHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 368,
+      "length": 3,
+      "value": "\"I\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ModalPresentationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 311,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ModalPresentationController.swift",
       "kind": "IntegerLiteral",
-      "offset": 502,
+      "offset": 357,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ModalPresentationController.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ModalPresentationController.swift",
       "kind": "IntegerLiteral",
-      "offset": 508,
+      "offset": 604,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ModalTransitioningDelegate.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ModalPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 610,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ModalPresentationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2172,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ModalTransitioningDelegate.swift",
       "kind": "BooleanLiteral",
       "offset": 262,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ModalTransitioningDelegate.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ModalTransitioningDelegate.swift",
       "kind": "StringLiteral",
       "offset": 156,
       "length": 26,
       "value": "\"PostFinanceCheckoutSdk.ModalTransitioningDelegate\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ResizeScreen\/ResizeScreenModule.swift",
+      "kind": "StringLiteral",
+      "offset": 345,
+      "length": 36,
+      "value": "\"payment-sdk-resize-screen_observer\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 273,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 317,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 375,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 381,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 444,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 448,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 500,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 504,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 559,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 563,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
       "kind": "FloatLiteral",
       "offset": 609,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 670,
       "length": 35,
       "value": "\"wallee.com.PostFinanceCheckoutSdk\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 756,
       "length": 10,
       "value": "\"RNScreen\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 833,
       "length": 11,
       "value": "\"rn-screen\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/GlobalEventSender\/GlobalEventSenderModule.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/GlobalEventSender\/GlobalEventSenderModule.swift",
       "kind": "StringLiteral",
       "offset": 196,
       "length": 23,
       "value": "\"PostFinanceCheckoutSdk.GlobalEventSenderModule\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PostFinanceCheckoutSdk.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ThreeDSManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 308,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PostFinanceCheckoutSdk.swift",
       "kind": "StringLiteral",
-      "offset": 248,
+      "offset": 247,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Helpers\/Theme.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PostFinanceCheckoutSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PostFinanceCheckoutSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 307,
+      "length": 7,
+      "value": "\"1.4.2\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Helpers\/Theme.swift",
       "kind": "BooleanLiteral",
       "offset": 438,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Enums\/AnimationEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 314,
+      "length": 17,
+      "value": "\"THREEDS_SUCCESS\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 15,
+      "value": "\"THREEDS_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 394,
+      "length": 19,
+      "value": "\"THREEDS_CANCELLED\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 437,
+      "length": 17,
+      "value": "\"THREEDS_TIMEOUT\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 485,
+      "length": 24,
+      "value": "\"THREEDS_PROTOCOL_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 539,
+      "length": 23,
+      "value": "\"THREEDS_RUNTIME_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 594,
+      "length": 25,
+      "value": "\"THREEDS_INIT_SUCCESSFUL\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 314,
+      "length": 17,
+      "value": "\"THREEDS_SUCCESS\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 15,
+      "value": "\"THREEDS_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 394,
+      "length": 19,
+      "value": "\"THREEDS_CANCELLED\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 437,
+      "length": 17,
+      "value": "\"THREEDS_TIMEOUT\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 485,
+      "length": 24,
+      "value": "\"THREEDS_PROTOCOL_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 539,
+      "length": 23,
+      "value": "\"THREEDS_RUNTIME_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 594,
+      "length": 25,
+      "value": "\"THREEDS_INIT_SUCCESSFUL\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 667,
+      "length": 16,
+      "value": "\"threeds_result\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 727,
+      "length": 29,
+      "value": "\"THREEDS_EVENT_LISTENER_NAME\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "StringLiteral",
+      "offset": 803,
+      "length": 23,
+      "value": "\"THREEDS_ERROR_MESSAGE\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Modules\/ThreeDSModule.swift",
+      "kind": "BooleanLiteral",
+      "offset": 905,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Enums\/AnimationEnum.swift",
       "kind": "StringLiteral",
       "offset": 74,
       "length": 8,
       "value": "\"bubble\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Enums\/AnimationEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Enums\/AnimationEnum.swift",
       "kind": "StringLiteral",
       "offset": 100,
       "length": 7,
       "value": "\"slide\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Enums\/AnimationEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Enums\/AnimationEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 124,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Enums\/AnimationEnum.swift",
       "kind": "StringLiteral",
       "offset": 74,
       "length": 8,
       "value": "\"bubble\""
     },
     {
-      "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Enums\/AnimationEnum.swift",
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Enums\/AnimationEnum.swift",
       "kind": "StringLiteral",
       "offset": 100,
       "length": 7,
       "value": "\"slide\""
+    },
+    {
+      "filePath": "\/Users\/gitlabrunner\/builds\/VwLiCsV2_\/0\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/Enums\/AnimationEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 124,
+      "length": 6,
+      "value": "\"none\""
     }
   ]
 }
